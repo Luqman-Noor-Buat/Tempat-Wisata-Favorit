@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 7</title>
+  </head>
+  <body style="background-color: rgba(146, 1, 115, 0.548)">
+    <center>
+      <table width="950" style="background-color: white">
+        <tr>
+          <!-- UNTUK JUDUL -->
+          <th colspan="2">
+            <h1>5 Tempat Wisata Favorit Saya</h1>
+            <hr width="900px" size="3px" style="background-color: black" />
+            <br />
+          </th>
+        </tr>
+        <!-- 1. UNTUK MALIOBORO -->
+        <tr>
+          <td align="left" width="500px">
+            <button type="button" onclick="malioboro()" style="background-color: white; text-align: center; border: white"><img src="malioboro.jpg" width="450px" /></button>
+          </td>
+          <td align="center" width="500px">
+            <p id="malioboro">Jalan Malioboro, Yogyakarta</p>
+            <script>
+              function malioboro() {
+                document.getElementById("malioboro").innerHTML =
+                  "Malioboro merupakan salah satu jalan paling populer yang berada di jantung kota di Yogyakarta. Di sini kita bisa menikmati indahnya Yogyakarta dengan menyusuri jalan malioboro. Selain itu, kita juga bisa mencari makanan dan juga banyak sekali pertokoan.";
+              }
+            </script>
+            <hr width="90px" style="background-color: black" />
+          </td>
+        </tr>
+        <!-- 2. UNTUK MASJID AGUNG DEMAK -->
+        <tr>
+          <td align="center">
+            <p id="masjid_agung_demak">Masjid Agung Demak, Jawa Tengah</p>
+            <script>
+              function masjid_agung_demak() {
+                document.getElementById("masjid_agung_demak").innerHTML =
+                  "Masjid Agung Demak berada di Dusun Kauman, Desa Bintoro, Kecamatan Demak, Kabupaten Demak, Jawa Tengah merupakan tempat ibadah sekaligus objek wisata religi andalan Kabupaten Demak. Selain fungsinya sebagai rumah ibadah, masjid tersebut juga ramai dikunjungi pelancong untuk berwisata menikmati perpaduan antara wisata religi dan wisata sejarah. Pengunjung Masjid Agung Demak biasanya menyempatkan diri untuk salat atau sekadar berdiam diri di dalam masjid. Selain itu, pengunjung juga biasanya mengamati indahnya arsitektur Masjid Agung Demak.";
+              }
+            </script>
+            <hr width="90px" style="background-color: black" />
+          </td>
+          <td align="right">
+            <hr width="400px" style="background-color: black" />
+            <button type="button" onclick="masjid_agung_demak()" style="background-color: white; text-align: center; border: white"><img src="masjid.jpg" width="450px" /></button>
+          </td>
+        </tr>
+        <!-- 3. UNTUK PANTAI GREWENG -->
+        <tr>
+          <td align="left">
+            <hr width="400px" style="background-color: black" />
+            <button type="button" onclick="pantai_greweng()" style="background-color: white; text-align: center; border: white"><img src="pantai greweng.jpg" width="450px" /></button>
+          </td>
+          <td align="center">
+            <p id="pantai_greweng">Pantai Greweng, Gunung Kidul, Yogyakarta</p>
+            <script>
+              function pantai_greweng() {
+                document.getElementById("pantai_greweng").innerHTML =
+                  "Pantai Greweng terletak di Pendowo, Jepitu, Girisubo, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta. Untuk mencapai Pantai Greweng dibutuhkan waktu 2 jam dari pusat kota Jogja, dengan jarak tempuh sekitar 74 km. Pantai Greweng menyuguhkan panorama khas pantai dengan hamparan pasir putih, birunya air laut dan suara deburan ombak. Karena tidak banyak yang berkunjung ke sini, Pantai Greweng cenderung sepi. Sehingga suasana yang dihasilkan cukup tenang dan menyejukkan, membuat pengunjung ingin berkemah di sini. Jangan heran kalau di hari weekend, banyak tenda yang dipasang di sini.";
+              }
+            </script>
+            <hr width="90px" style="background-color: black" />
+          </td>
+        </tr>
+        <!-- 4. UNTUK TELAGA CEBONGAN -->
+        <tr>
+          <td align="center">
+            <p id="telaga_cebongan">Telaga Cebongan, Bukit Sikunir, Dieng</p>
+            <script>
+              function telaga_cebongan() {
+                document.getElementById("telaga_cebongan").innerHTML =
+                  "Telaga Cebong terletak di desa tertinggi di Jawa yaitu Desa Sembungan, Telaga Cebong merupakan telaga yang terjadi dari bekas kawah purba.Lokasi Telaga Cebong berada disebelah barat  Gunung Sikunir dengan bentuk menyerupai cebong/berudu mungkin dari bentuk itulah akhirnya telaga ini diberi nama telaga cebong. Disini kita bisa menikmati indahnya pegunungan dan juga segarnya air dari telaga cebong.";
+              }
+            </script>
+            <hr width="90px" style="background-color: black" />
+          </td>
+          <td align="right">
+            <hr width="400px" style="background-color: black" />
+            <button type="button" onclick="telaga_cebongan()" style="background-color: white; text-align: center; border: white"><img src="Telaga Cebong.jpg" width="450px" /></button>
+          </td>
+        </tr>
+        <!-- 5. UNTUK KARIMUNJAWA -->
+        <tr>
+          <td align="left">
+            <hr width="400px" style="background-color: black" />
+            <button type="button" onclick="karimunjawa()" style="background-color: white; text-align: center; border: white"><img src="karimunjawa.jpg" width="450px" /></button>
+          </td>
+          <td align="center">
+            <p id="karimunjawa">Taman Nasional Karimunjawa, Jawa Tengah</p>
+            <script>
+              function karimunjawa() {
+                document.getElementById("karimunjawa").innerHTML =
+                  "Karimunjawa termasuk kepulauan indah yang ada di Indonesia yang terdapat di daerah Jepara. Karimunjawa termasuk dalam Kabupaten Jepara, Jawa Tengah yaitu di pesisir pantai utara Pulau Jawa. Kepulauan ini juga telah ditetapkan sebagai Taman Nasional. Hamparan pasir putih dan air yang jernih merupakan pemandangan yang akan Anda nikmati. Suasana alami, asri dan tenang masih sangat terasa dan akan membuat Anda merasa betah berlama-lama di sini.";
+              }
+            </script>
+            <hr width="90px" style="background-color: black" />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <table width="950" style="background-color: white">
+        <tr>
+          <td align="center">
+            <br />
+            &COPY; 2021-By Luqman Noor Buat <br /><br />
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
